@@ -1,2 +1,25 @@
 # repositorio1
 programacion 1 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    int num1;
+    int num2;
+    int suma;
+    
+    cout << "Ingrese el primer numero: ";
+    cin >> num1;
+    
+    cout << "Ingrese el segundo numero: ";
+    cin >> num2;
+    
+    suma = num1 + num2;
+    
+    cout << "La suma es: " << suma << endl;
+    
+    system("pause");
+    return 0;
+}
